@@ -40,8 +40,9 @@ MODULES
 /*-------- HEADER --------*/
 
 header{
-    padding-bottom: 35px;
-    padding-top: 35px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 100px;
 }
 
 header div{
@@ -63,7 +64,6 @@ header p{
 header ul{
     display: flex;
     list-style: none;
-    padding: 0;
 }
 
 header nav ul li{
@@ -90,9 +90,101 @@ nav a:hover{
 
 
 .hero{
-    background-image: url(../images/section.hero.jpg);
+    background-image: url(../images/section.jpg);
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Dosis', sans-serif;
+    color: white;
 }
+
+.hero h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.hero p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.texte{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+/*-------- CONTENU --------*/
+
+
+.contenu h2{
+    font-size: 36px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #0E5EA1;
+}
+
+.artcontenu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    width: 370px;
+    height: 585px;
+}
+
+.artcontenu h3{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.artcontenu p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.artcontenu a{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #b7b7b7;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+
+.artcontenu a:hover{
+    background-color: #0E5EA1;
+    color: white;
+}
+
+.art{
+    background-color: white;
+    border-bottom: #0E5EA1;
+}
+
+
+/*-------- FOOTER --------*/
+
+footer{
+    background-color: black;
+    height: 70px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
