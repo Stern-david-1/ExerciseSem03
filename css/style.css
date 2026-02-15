@@ -1,0 +1,95 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------
+BASE
+-------------------------------------------------------------------------*/
+
+body{
+    background-color: white;
+    font-family: 'Roboto', 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------
+MISE EN PAGE
+-------------------------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+/*------------------------------------------------------------------------
+MODULES
+-------------------------------------------------------------------------*/
+
+
+/*-------- HEADER --------*/
+
+header{
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    margin-right: 40px;
+}
+
+header p{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #0E5EA1;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*-------- HERO --------*/
+
+
+.hero{
+    background-image: url(../images/section.hero.jpg);
+    height: 450px;
+}
