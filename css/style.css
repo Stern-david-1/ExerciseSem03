@@ -45,6 +45,8 @@ header{
     height: 100px;
 }
 
+
+
 header div{
     display: flex;
     justify-content: space-between;
@@ -102,20 +104,28 @@ nav a:hover{
 .hero h1{
     font-size: 50px;
     font-weight: bold;
-    padding-top: 80px;
 }
 
 .hero p{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    text-align: center;
+}
+
+.hero .wrapper{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texte{
-    display: grid;
-    justify-content: center;
-    align-self: center;
+    text-align: center;
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(0, 0, 0, .5);
 }
 
 /*-------- CONTENU --------*/
@@ -128,10 +138,10 @@ nav a:hover{
     color: #0E5EA1;
 }
 
-.artcontenu {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+.contenu .artcontenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
     align-items: center;
     width: 370px;
     height: 585px;
@@ -147,6 +157,11 @@ nav a:hover{
 .artcontenu p{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+}
+
+a{
+    margin-top: auto;
+    align-self: center;
 }
 
 .artcontenu a{
@@ -172,6 +187,18 @@ nav a:hover{
 .art{
     background-color: white;
     border-bottom: #0E5EA1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-------- ASIDE --------*/
+
+
+aside{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 495px;
 }
 
 
