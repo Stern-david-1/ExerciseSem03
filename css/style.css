@@ -104,6 +104,7 @@ nav a:hover{
 .hero h1{
     font-size: 50px;
     font-weight: bold;
+    word-spacing: 5px;
 }
 
 .hero p{
@@ -124,7 +125,10 @@ nav a:hover{
     text-align: center;
     background: black;
     border-radius: 10px;
-    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: rgba(0, 0, 0, .5);
 }
 
