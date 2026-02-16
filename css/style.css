@@ -11,7 +11,7 @@ BASE
 -------------------------------------------------------------------------*/
 
 body{
-    background-color: white;
+    background-color: #eeee;
     font-family: 'Roboto', 'Dosis', sans-serif;
     font-size: 18px;
 }
@@ -145,6 +145,11 @@ nav a:hover{
     align-items: center;
     width: 370px;
     height: 585px;
+}
+
+.art{
+    padding: 15px;
+
 }
 
 .artcontenu h3{
